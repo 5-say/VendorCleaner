@@ -1,0 +1,21 @@
+{
+    "name": "five-say/vendor-cleaner",
+    "description": "",
+    "authors": [
+        {
+            "name": "five-say",
+            "email": "bcw.5@foxmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/filesystem": "4.1.x",
+        "symfony/finder": "~2.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "FiveSay\\VendorCleaner": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
