@@ -1,6 +1,11 @@
 # VendorCleaner
 
-vendor 目录清理程序。
+- vendor 目录清理程序。
+  - 本项目原始规则文件源于 [barryvdh/laravel-vendor-cleanup](https://github.com/barryvdh/laravel-vendor-cleanup)。
+  - laravel-vendor-cleanup 同样是非常优秀的清理工具，请大家自行选择适用自己的方案。
+- 与 laravel-vendor-cleanup 的区别。
+  - 不同于 laravel-vendor-cleanup 的硬删除处理，本项目采取了更为保守的备份策略，一来确保操作的安全性，二来不会对 Composer 的更新速度造成不良影响。
+  - laravel-vendor-cleanup 仅适用于 laravel-4，而本项目并无框架限制。
 
 ---
 
