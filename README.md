@@ -50,13 +50,13 @@
 
 ## 如何自定义清理规则？
 
-默认使用的规则文件位于 `/vendor/five-say/vendor-cleaner/src/FiveSay/VendorCleaner/VendorCleaner.config.php`。如果需要使用自定义的规则，在 Vendor 同级目录建立自定义的 VendorCleaner.config.php 即可（注意：这将完全使用用户自定义规则，而忽略默认规则文件）。
+默认使用的规则文件位于 `/vendor/five-say/vendor-cleaner/src/FiveSay/VendorCleaner/VendorCleaner.config.php`。如果需要使用自定义的规则，在 Vendor 同级目录建立自定义的 `VendorCleaner.config.php` 即可（注意：这将完全使用用户自定义规则，而忽略默认规则文件）。
 
 这里有一个简单的例子：
 
     'ircmaxell/password-compat' => 'README.md test'
 
-如此，程序将清理 ircmaxell/password-compat 资源包中的 README.md 文件和 test 目录。
+表示：清理 ircmaxell/password-compat 资源包中的 README.md 文件和 test 目录。
 
 
 
