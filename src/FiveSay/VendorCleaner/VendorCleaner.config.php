@@ -33,6 +33,7 @@ return array(
     'symfony/translation/Symfony/Component/Translation'          => 'CHANGELOG* README* Tests',
 
     # 常用资源包
+    'barryvdh/laravel-debugbar' => 'readme.md phpunit.xml tests',
     'anahkiasen/former'         => 'README* CHANGELOG* CONTRIBUTING* phpunit.xml* tests',
     'anahkiasen/html-object'    => 'README* CHANGELOG* phpunit.xml* examples tests',
     'anahkiasen/underscore-php' => 'README* CHANGELOG* phpunit.xml* tests',
