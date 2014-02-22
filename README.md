@@ -27,7 +27,7 @@
 
 在 composer.json 文件中申明依赖：
 
-    "five-say/vendor-cleaner": "dev-master"
+    "five-say/vendor-cleaner": "1.*"
 
 在 composer.json 文件 scripts 属性中加入对应的脚本事件回调：
 
