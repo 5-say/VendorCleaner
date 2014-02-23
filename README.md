@@ -38,8 +38,7 @@
         ],
         "post-update-cmd": [
             "FiveSay\\VendorCleaner::backup",
-            "php artisan clear-compiled",
-            "php artisan optimize"
+            ...
         ],
         ...
     },
