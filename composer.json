@@ -1,6 +1,7 @@
 {
     "name": "five-say/vendor-cleaner",
-    "description": "",
+    "description": "vendor-cleaner",
+    "keywords": ["vendor", "cleaner"],
     "authors": [
         {
             "name": "five-say",
